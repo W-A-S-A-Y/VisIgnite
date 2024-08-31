@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SectionTitle from "../Common/SectionTitle";
 
 const AboutSectionTwo = () => {
   return (
@@ -25,32 +26,34 @@ const AboutSectionTwo = () => {
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
+          <SectionTitle
+                title="Our Services"
+                paragraph=""
+                mb="44px"
+              />
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                Virtual Agents
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Our team of highly skilled Virtual Assistants (VAs) is dedicated to assisting your business in multiple ways. Whether it&apos;s handling customer or client queries, generating and nurturing leads, booking appointments, supporting sales efforts, or developing effective sales strategies, our VAs are equipped to help you succeed.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                Marketing and SEO Services
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                In today&apos;s digital world, visibility is key. Visignite offers cutting-edge marketing and SEO services to help your brand stand out. From creating impactful campaigns on platforms like TikTok and Facebook to optimizing your website’s reach, we cover it all. Our expertise extends to holistic campaign management, content creation, brand development, and social media strategy, ensuring your business connects with its target audience.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                Insurance Virtual Professional Services
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                The insurance industry demands precision and reliability, and our specialized Insurance Virtual Professionals are here to deliver. We provide top-notch administrative support, quoting & re-quoting services, customer service assistance, customer relationship management, and policy endorsement processing. Our focus is on ensuring your insurance business runs smoothly, allowing you to focus on what matters most—your clients.
                 </p>
               </div>
             </div>
