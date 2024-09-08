@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0px auto;
   position: relative;
   width: 100%;
   max-width: 1200px;
@@ -17,8 +16,6 @@
 }
 
 .serviceCard {
-  flex: 0 0 30%; /* Each card takes 30% of the wrapper width */
-  background-color: #003A8D; /* Orange background */
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -54,10 +51,8 @@
 
 .prevButton,
 .nextButton {
-  background-color: #00000001;
   color: #fff;
   border: none;
-  padding: 10px 25px;
   cursor: pointer;
   font-size: 1.5rem;
   position: absolute;

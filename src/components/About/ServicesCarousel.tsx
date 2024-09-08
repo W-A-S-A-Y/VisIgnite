@@ -4,6 +4,7 @@ import { useState } from 'react';
 import styles from './ServicesCarousel.module.css';
 
 const ServicesCarousel = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const services = [
     {
@@ -62,9 +63,6 @@ const ServicesCarousel = () => {
     },
   ];
 
-  const middleIndex = Math.floor(services.length / 2);
-  const [currentIndex, setCurrentIndex] = useState(middleIndex);
-
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? services.length - 1 : prevIndex - 1));
   };
@@ -78,7 +76,6 @@ const ServicesCarousel = () => {
       <button onClick={goToPrevious} className={styles.prevButton}>
         &#8249;
       </button>
-      <div className={styles.carouselWrapper} style={{ transform: `translateX(-${currentIndex * 30}%)` }}>
         {services.map((service, index) => {
           return (
             <div

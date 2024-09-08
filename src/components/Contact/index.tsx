@@ -12,7 +12,6 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                You can contact us via phone number or email.
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
                 Our support team will get back to you ASAP via email.
@@ -25,7 +24,6 @@ const Contact = () => {
                         htmlFor="email"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Email: XYZ@VISIGNITE.COM
                       </label>
                     </div>
                   </div>
@@ -35,7 +33,6 @@ const Contact = () => {
                         htmlFor="message"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Phone Number: +1 (346) 213-5970
                       </label>
                     </div>
                   </div>
