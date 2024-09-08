@@ -10,7 +10,7 @@ const ServicesCarousel = () => {
       title: 'Marketing Virtual Professional',
       description: [
         'Holistic Campaign Management',
-        'Content Creation and SEO2',
+        'Content Creation and SEO',
         'Brand Development',
         'Social Media Strategy',
       ],
