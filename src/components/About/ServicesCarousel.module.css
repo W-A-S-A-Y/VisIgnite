@@ -23,7 +23,7 @@
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
-  color: #fff;
+  color: rgb(206, 209, 216);
   opacity: 0.5;
   transition: transform 0.5s ease, opacity 0.5s ease;
   margin: 0 1.666%; /* Adjusted to ensure equal spacing */
@@ -31,6 +31,7 @@
 }
 
 .serviceCard h2 {
+  color: #fff;
   margin-bottom: 10px;
   font-size: 1.2rem;
 }
