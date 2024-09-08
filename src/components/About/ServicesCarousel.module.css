@@ -1,0 +1,82 @@
+.carouselContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.carouselWrapper {
+  display: flex;
+  transition: transform 0.5s ease; /* Smoother sliding */
+  width: calc(100% * 2); /* Adjusted to ensure proper width for 3 cards */
+}
+
+.serviceCard {
+  flex: 0 0 30%; /* Each card takes 30% of the wrapper width */
+  background-color: #003A8D; /* Orange background */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff;
+  opacity: 0.5;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  margin: 0 1.666%; /* Adjusted to ensure equal spacing */
+  transform: scale(0.8); /* Reduced size for non-active cards */
+}
+
+.serviceCard h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.serviceCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.serviceCard ul li {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.activeCard {
+  transform: scale(1.1); /* Enlarged size for the active card */
+  opacity: 1; /* Brightened for the active card */
+  z-index: 1; /* Bring active card to the front */
+}
+
+.prevButton,
+.nextButton {
+  background-color: #00000001;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.prevButton:hover,
+.nextButton:hover {
+  background-color: #e67300;
+}
+
+.prevButton {
+  left: 10px; /* Adjusted to ensure proper positioning */
+}
+
+.nextButton {
+  right: 10px; /* Adjusted to ensure proper positioning */
+}
