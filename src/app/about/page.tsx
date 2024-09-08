@@ -19,8 +19,8 @@ const AboutPage = () => {
         pageName="About VisIgnite"
         description="Learn more about our company services."
       />
-      <ServicesCarousel/>
       <AboutSectionOne />
+      <ServicesCarousel/>
       <AboutSectionTwo />
     </>
   );
