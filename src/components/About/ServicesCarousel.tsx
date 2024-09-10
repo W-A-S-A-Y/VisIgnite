@@ -20,8 +20,9 @@ const ServicesCarousel = () => {
       description: [
         'Data Management and Analysis',
         'CRM Implementation and Optimization',
-        'Process Optimization',
+        'handling queries and requests',
         'Workflow Management',
+        'Documentation and Admin Support',
       ],
     },
     {

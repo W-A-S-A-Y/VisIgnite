@@ -9,6 +9,7 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
+import ServicesCarousel from "@/components/About/ServicesCarousel";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -22,14 +23,15 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <ServicesCarousel/>
       <Features />
       <Video />
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
-      <Blog />
+      {/* <Pricing /> */}
+      {/* <Blog /> */}
       <Contact />
     </>
   );
