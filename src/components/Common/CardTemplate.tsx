@@ -18,9 +18,10 @@ const CardTemplate = ({
           style={{
             maxWidth: width,
             marginBottom: mb,
-            backgroundColor: "#6c8dbd", // Background color
+            backgroundColor: "#0038AD", // Background color
             padding: "20px",
             color: "white", // Text color for contrast
+            borderRadius: "10px",
           }}
         >
           <h3 className="mb-4 text-xl font-bold !leading-tight text-white">

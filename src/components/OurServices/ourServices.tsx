@@ -47,7 +47,7 @@ function Services() {
         <div>
             <div>
             <CardTemplate
-        title="Our Services"
+        title="WordPress Development"
         services={["one", "two", "three", "four", "five"]}
           />
             </div>  
@@ -55,8 +55,8 @@ function Services() {
           <div>
           <div>
           <CardTemplate
-        title="Our Services"
-        services={["one", "two", "three", "four", "five"]}
+        title="Web Application Development"
+        services={["Next JS", "Cloud Deployment", "Seamless Front End Designs", "API Integrations", "Database Management"]}
           />
             </div>  
           </div>
