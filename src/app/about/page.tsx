@@ -1,7 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import ServicesCarousel from "@/components/About/ServicesCarousel";
-
+import WhyChooseUs from "@/components/WhyChooseUs/ChooseUS";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
@@ -19,8 +18,8 @@ const AboutPage = () => {
         pageName="About VisIgnite"
         description="Learn more about our company services."
       />
+      <WhyChooseUs />
       <AboutSectionOne />
-      <ServicesCarousel/>
       <AboutSectionTwo />
     </>
   );
