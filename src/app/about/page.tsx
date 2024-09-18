@@ -1,6 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import WhyChooseUs from "@/components\WhyChooseUs\chooseUs";
+import WhyChooseUs from "@/components/WhyChooseUs/chooseUs";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
