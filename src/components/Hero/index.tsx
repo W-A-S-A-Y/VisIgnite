@@ -15,17 +15,14 @@ const Hero = () => {
                   Welcome to Visignite. 
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Elevate your business with VisIgnite’s unparalleled virtual assistance services. 
-                  We offer the best in cost-effective, premium support, with a specialized focus 
-                  on insurance VAs. Our unmatched expertise ensures superior efficiency and streamlined 
-                  operations, empowering you to surpass the competition and drive unparalleled growth.
+                Boost your business with VisIgnite’s expert web development, design, and optimization services. We deliver cost-effective, high-performance websites that enhance user experience and help you stay ahead of the competition.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/#"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Let's Connect!
+                    Get a Free Website Audit
                   </Link>
                 </div>
               </div>

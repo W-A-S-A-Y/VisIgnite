@@ -25,25 +25,24 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Strategic Success Partners"
-                paragraph="Providing customized strategies and tools to help optimize your businesses operations and scale effectively. While empowering our VAs to enhance service offerings and achieve sustainable growth."
+                paragraph="At VisIgnite, we craft bespoke website solutions to elevate your online presence and drive business growth. Our expert team leverages cutting-edge technology and innovative strategies to deliver premium quality websites that stand out."
                 mb="44px"
               />
-
               <div
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium Quality" />
-                    <List text="Enhanced Reliability" />
-                    <List text="Latest Tech Tools" />
+                    <List text="Tailored Solutions" />
+                    <List text="High-Quality Delivery" />
+                    <List text="Advanced Technology" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Diverse Solutions" />
-                    <List text="Detailed Documentation" />
-                    <List text="Flexible Timings " />
+                    <List text="Comprehensive Services" />
+                    <List text="Transparent Processes" />
+                    <List text="Flexible Scheduling" />
                   </div>
                 </div>
               </div>

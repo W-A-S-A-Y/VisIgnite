@@ -27,10 +27,11 @@ export default function Home() {
       <Video />
       <Brands />
       <Services/>
+      <br/>
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
+      {/* <Pricing /> */}
       <Blog />
       <Contact />
     </>

@@ -5,7 +5,7 @@ const blogData: Blog[] = [
     id: 1,
     title: "Best UI components for modern websites",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Styling your website with industrial standards that are well researched on Human interaction with websites.",
     image: "/images/blog/blog-01.jpg",
     author: {
       name: "Samuyl Joshi",
@@ -17,9 +17,9 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "How do we improve your web application performance?",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Web application developemnt requires user experience and performance. Learn more what we have in stock for you.",
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Musharof Chy",
@@ -31,9 +31,9 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "How to choose a web design company?",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "There are plenty of Web design companies out there. But how do you choose the right one for your business?",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Lethium Deo",
