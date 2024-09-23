@@ -28,14 +28,14 @@ const brandsData: Brand[] = [
   {
     id: 4,
     name: "Tailadmin",
-    image: "/images/brands/tailadmin.svg",
-    imageLight: "/images/brands/tailadmin.svg",
+    image: "/images/brands/tailwind.svg",
+    imageLight: "/images/brands/tailwind.svg",
   },
   {
     id: 5,
     name: "PlainAdmin",
-    image: "/images/brands/plainadmin.svg",
-    imageLight: "/images/brands/plainadmin.svg",
+    image: "/images/brands/node-js.svg",
+    imageLight: "/images/brands/node-js.svg",
   },
 ];
 

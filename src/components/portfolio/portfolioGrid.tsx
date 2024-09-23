@@ -11,7 +11,7 @@ interface PortfolioItem {
 
 const portfolioItems: PortfolioItem[] = [
     { title: 'BoingFire', description: 'WooCommerce Webstore for Single Board Computers Developed a fully responsive, high-performance WooCommerce WordPress webstore tailored for the niche market of Single Board Computers (SBCs).', href: 'https://boingfire.com', image: '/images/portfolio/boingfire.png' },
-    { title: 'Agent AI', description: 'Full-Stack Generative AI Bot for Real Estate marketing and prompt generation ', href: 'https://agentaiapp.com', image: 'agentai logo-2.svg' },
+    { title: 'Agent AI', description: 'Full-Stack Generative AI Bot for Real Estate marketing and prompt generation ', href: 'https://agentaiapp.com', image: '/images/portfolio/agentai.png' },
     { title: 'Safe Routes', description: 'A full-Stack web application for generating alternative navigation plans with integrated NLP model classifying crime and marking criminal hotspots.', href: 'https://example.com/project3', image: 'https://via.placeholder.com/150' },
     { title: 'Project 4', description: 'Description for project 4', href: 'https://example.com/project4', image: 'https://via.placeholder.com/150' },
 ];
