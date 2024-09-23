@@ -21,7 +21,7 @@
 
  
   .slick-slide h3 {
-    background: #2861e0; /* Background color for the slides */
+    background: #324898; /* Background color for the slides */
     color: white;
     padding: 40px 0;
     font-size: 1.5rem;
@@ -69,7 +69,7 @@
   }
   
   .slick-dots li.slick-active button {
-    background-color: #0038AD; /* Active dot color */
+    background-color: #324898; /* Active dot color */
   }
   
   /* Arrow Buttons */
