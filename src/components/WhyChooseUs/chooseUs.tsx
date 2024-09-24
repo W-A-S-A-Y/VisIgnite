@@ -5,16 +5,16 @@ const WhyChooseUs: React.FC = () => {
   <div>
     <SectionTitle title="Why Choose Us" paragraph='' center  />  
     <div style={styles.wrapper}>
-      <div style={styles.container}>
-        <div style={styles.section}>
-          <h3 style={{ fontWeight: 'bold', fontSize: '18px' }}>Why Choose Us</h3>
+      <div style={styles.container}  className= 'dark:bg-black'>
+        <div style={styles.section}  className= 'dark:bg-black'>
+          <h3 className='h3'>Why Choose Us</h3>
           <p>
             At VisIgnite, we offer a blend of professionalism, versatility, and dynamism,
             tailoring virtual services to meet your unique business needs.
           </p>
         </div>
         <div style={styles.section}>
-            <h3 style={{ fontWeight: 'bold', fontSize: '18px' }}>Save Your Time</h3>
+            <h3 className='h3'>Save Your Time</h3>
           <p>
             Time is money in business, and Savvital saves you both. Our team handles your operations,
             freeing you to focus on growth and profit.

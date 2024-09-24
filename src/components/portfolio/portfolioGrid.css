@@ -23,12 +23,6 @@
     background-color: var(--card-bg-color, #ffffff);
     color: var(--card-text-color, #000000);
     border-radius: 8px;
-
-    @media (prefers-color-scheme: dark) {
-        background-color: var(--card-bg-color-dark, #121723);
-        color: var(--card-text-color-dark, #ffffff);
-    }
-
     padding: 16px;
     transition: transform 0.2s, box-shadow 0.2s ease-in-out background-color #213766 0.2s;
     position: relative;

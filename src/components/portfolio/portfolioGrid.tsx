@@ -18,9 +18,10 @@ const portfolioItems: PortfolioItem[] = [
 
 const PortfolioGrid: React.FC = () => {
     return (
-        <div className="portfolio-grid">
+        // className="flex flex-wrap items-center justify-center rounded-sm bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]">
+        <div className="portfolio-grid bg-gray-light dark:bg-black">
             {portfolioItems.map((item, index) => (
-                <a key={index} href={item.href} className="portfolio-card">
+                <a key={index} href={item.href} className="portfolio-card" style={{ backgroundColor: 'var(--background-color)', color: 'var(--text-color)'  }}>
                     <h3 style={{ fontSize: '3rem' }}>{item.title}</h3>
                     <p>{item.description}</p>
                     <img src={item.image} alt={item.title} />
