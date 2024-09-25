@@ -18,7 +18,7 @@ const CardTemplate = ({
         style={{
           maxWidth: width,
           marginBottom: mb,
-          backgroundColor: "#0038AD", // Background color
+          backgroundColor: "#153d63", // Background color
           padding: "20px",
           color: "white", // Text color for contrast
           borderRadius: "10px",
