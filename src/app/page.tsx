@@ -11,7 +11,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
-
+import Carousel from "@/components/suii/suii";
 export const metadata: Metadata = {
   title: "VisIgnite",
   description: "ignite your business with VisIgnite",
@@ -23,6 +23,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <Carousel/>
       <Features />
       <Video />
       <Brands />
