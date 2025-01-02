@@ -25,7 +25,6 @@ export default function Home() {
       <Hero />
       <Carousel/>
       <Features />
-      <Video />
       <Brands />
       <Services/>
       <AboutSectionOne />
