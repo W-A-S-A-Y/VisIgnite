@@ -25,7 +25,7 @@ const Contact = () => {
                         htmlFor="email"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Email: XYZ@VISIGNITE.COM
+                        Email: sales@visigniteenterprises.com
                       </label>
                     </div>
                   </div>
@@ -35,7 +35,7 @@ const Contact = () => {
                         htmlFor="message"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Phone Number: +1 (346) 213-5970
+                        Phone Number: +92 335 155 9187
                       </label>
                     </div>
                   </div>
